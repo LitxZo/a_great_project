@@ -15,5 +15,5 @@ func InitConfig() {
 		panic(fmt.Sprintf("Load COnfig Error: %s", err.Error()))
 	}
 
-	fmt.Println(viper.GetString("Server.port"))
+	fmt.Println("Init Config Success")
 }
